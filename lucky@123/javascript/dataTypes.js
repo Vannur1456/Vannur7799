@@ -1,77 +1,76 @@
-///priumitive-Data Types///
-// Number
-let num = 77;
-const pi = 8.14;
-var age = 35;
- 
-console.log(num)
-console.log(pi)
-console.log(35)
- 
-// String
-let name = "vali";
-const city = 'New York';
-var country = "USA";
-console.log(name)
-console.log(city)
-console.log(country)
- 
-// Boolean
-let isActive = true;
-const hasPermission = false;
-var isMember = true;
-console.log(isActive)
-console.log(hasPermission)
-console.log(isMember)
-// Undefined
-let x;
-var y;
-console.log(x)
-console.log(y)
- 
-// Null
-let emptyValue = null;
-var notAssigned = null;
-console.log(emptyValue)
-console.log(notAssigned)
- 
-// BigInt
-const bigNum = 1234567890123456789n;
-console.log(bigNum)
- 
- 
-// Symbol
-const uniqueId = Symbol("id");
-////Non-Primitive Data Types
-// Object
-let person = { name: "Alice", age: 25 };
-const car = { brand: "Tesla", model: "Model S" };
-var employee = { id: 101, role: "Developer" };
-console.log(person)
-console.log(car)
-console.log(employee)
-// Array
-let numbers = [1, 2, 3];
-const fruits = ["Apple", "Banana"];
-var colors = ["Red", "Blue", "Green"];
-console.log(numbers)
-console.log(fruits)
-console.log(colors)
- 
-// Function
-function greet() {
-  return "Hello";
-}
-const sayHi = () => "Hi!";
-var welcome = function() {
-  return "Welcome!";
-};
- 
-// Map
-const map = new Map();
-map.set("key1", "value1");
- 
-// Set
-let set = new Set();
-set.add(10);
-set.add(20);
+let A = 20,
+ B = 40;
+
+ //Airthematic Operators//
+
+console.log(A + B);  
+
+console.log(B - A);
+
+console.log(A * B);   
+
+console.log(B / A);   
+
+console.log(B % A);   
+
+console.log(A ** 2); 
+
+
+// Increment (Pre and Post)
+console.log(++A);    
+
+console.log(B++);     
+
+console.log(B);       
+
+
+// Decrement (Pre and Post)
+console.log(--A);   
+
+console.log(B--);     
+
+console.log(B);   
+
+console.log( --B + A--);
+
+console.log(A++ + --B);
+
+
+//Assignment Operators 
+
+A += 5;
+console.log(A);       
+
+B -= 10;
+console.log(B);       
+
+A *= 2;
+console.log(A);       
+
+B /= 2;
+console.log(B);       
+
+
+//Comparison Operators
+
+console.log(A < B);    
+
+console.log(B > A);    
+
+console.log(A <= 10);  
+
+console.log(B >= 30);  
+
+
+// Equality
+
+console.log(A == "10");   
+
+console.log(A === "10");  
+
+
+// Inequality
+
+console.log(A != "20");   
+
+console.log(B !== "20");
